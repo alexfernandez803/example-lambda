@@ -1,3 +1,4 @@
+# example-lambda for rendering video from lambda function
 
 ## How to Use
 
@@ -6,13 +7,13 @@
 2. Install the dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 3. Create the CDK stack
 
 ```bash
-pnpx aws-cdk deploy \
+npx aws-cdk deploy \
   --outputs-file ./cdk-outputs.json
 ```
 
@@ -21,6 +22,5 @@ pnpx aws-cdk deploy \
 5. Cleanup
 
 ```bash
-pnpx exec aws-cdk destroy
+npx exec aws-cdk destroy
 ```
-# example-lambda
