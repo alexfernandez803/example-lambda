@@ -6,7 +6,6 @@ import type {
 import { renderMediaOnLambda } from "@remotion/lambda/client";
 
 export async function main(
-  // @ts-expect-error
   event: APIGatewayProxyEventV2
 ): Promise<APIGatewayProxyResultV2> {
   try {
