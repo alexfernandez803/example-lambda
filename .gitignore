@@ -8,3 +8,4 @@ node_modules
 cdk.out
 cdk-outputs.json
 dist
+package-lock.json

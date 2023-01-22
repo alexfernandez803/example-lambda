@@ -22,5 +22,5 @@ npx aws-cdk deploy \
 5. Cleanup
 
 ```bash
-npx exec aws-cdk destroy
+npx aws-cdk destroy
 ```
